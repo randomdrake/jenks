@@ -1,7 +1,7 @@
 jenks
 =====
 
-Jenks natural breaks optimization in PHP.
+PHP Implementation of Jenks Natural Breaks Optimization for Choroplethic Mapping
 -----
 Soon to be released with an open source license.
 
@@ -37,9 +37,9 @@ Where...
 
 Development:
 =====
-I studied up on this and wrote it while working [for a startup](http://grupthinkpowered.com/) a few years ago, in 2009. I found that all of the available choroplethic mapping solutions available had inadequate splits of data when asked to create a map.
+I studied up on this and wrote it while working [for a startup](http://grupthinkpowered.com/) a few years ago, in 2009. I found that all of the available choroplethic mapping solutions available had inadequate splits of data when asked to create a map. Unfortunately, very few implementations of Jenks exist outside of professional cartography packages.
 
-When re-writing this, we had chosen to use the Google Charts API for our maps so, you should be able to use this to simply output a map assuming you provide all the necessary parameters.
+When re-writing this, I had chosen to use the Google Charts API for our maps so, you should be able to use this to simply output a map assuming you provide all the necessary parameters.
 
 This was kind of based on [another script](http://www.forumsig.org/showthread.php?t=22055) that was in French (which I don't speak very well, at all). The original script had many issues and bugs and wasn't as flexible as I wanted it to be. So, I re-wrote it.
 
@@ -47,10 +47,11 @@ This one works well and is flexible in terms of the datasets. It has been tested
 
 To Do:
 =====
-* I still need a chance to go over it again and make improvements and/or more comments. 
-* I also need to see if the Google Maps stuff even works anymore.
-* Make a blog post 
-* Bug test
+* Need a chance to go over it again and make improvements and/or more comments. 
+* Bug test.
+* Write example usage.
+* See if the Google Maps stuff even works anymore.
+* Make a blog post / homepage.
 
 Author:
 =====
