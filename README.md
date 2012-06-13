@@ -1,9 +1,13 @@
 jenks
 =====
 
-Jenks natural breaks optimization in PHP.
+Jenks natural breaks optimization in PHP. 
+-----
+Soon to be released with an open source license.
 
-The Jensk natural breaks optimization method allows you to break up data points into the best possible number of groupings, with the best possible contents of each group for Choroplethic mapping. 
+About:
+=====
+The Jenks natural breaks optimization method allows you to break up data points into the best possible number of groupings, with the best possible contents of each group for Choroplethic mapping. 
 
 http://en.wikipedia.org/wiki/Choropleth_map
 
@@ -20,19 +24,32 @@ Here's how it works (from http://en.wikipedia.org/wiki/Jenks_natural_breaks_opti
 
 ![Jenks Algorithm](http://randomdrake.com/jenks.gif "Source - http://www.biomedware.com/files/documentation/spacestat/interface/map/classify/About_natural_breaks.htm")
 
-*A is the set of values that have been ordered from 1 to N.
-*1 ≤ i < j < N
-*Mean i..j is the mean of the class bounded by i and j.
+or
 
-Soon to be released with an open source license.
+![Jenks Algorithm Alternate](http://randomdrake.com/jenks2.gif "Source - http://www.biomedware.com/files/documentation/spacestat/interface/map/classify/About_natural_breaks.htm")
 
+Where...
+* A is the set of values that have been ordered from 1 to N.
+* 1 ≤ i < j < N
+* Mean i..j is the mean of the class bounded by i and j.
 
-I studied up on this and wrote this while working on a project a few years ago. I found that all of the available choroplethic mapping solutions available had inadequate splits of data when asked to create a map.
+Development:
+=====
+I studied up on this and wrote it while working on a project a few years ago in 2009. I found that all of the available choroplethic mapping solutions available had inadequate splits of data when asked to create a map.
 
-This was originally based on another script that was in French (which I don't speak). That one had bugs and was not very easy to understand.
+This was originally based on another script that was in French (which I don't speak very well, at all). That one had bugs and was not very easy to understand. You can find the link in the code if you're interested.
 
-This one works well and is flexible. It has been tested pretty thoroughly and, as far as I can tell, is correct.
+This one works well and is flexible in terms of the datasets. It has been tested pretty thoroughly and, as far as I can tell, is correct.
 
-I still need a chance to go over it again and make improvements and/or more comments. It's been a while.
+To Do:
+=====
+* I still need a chance to go over it again and make improvements and/or more comments. 
+* I also need to see if the Google Maps stuff even works anymore.
+* Make a blog post 
+* Bug test
 
--David Drake @randomdrake
+Author:
+=====
+David Drake 
+
+[@randomdrake](https://twitter.com/#!/randomdrake) | [http://randomdrake.com](http://randomdrake.com) | [LinkedIn](http://www.linkedin.com/pub/david-drake/52/247/465)
