@@ -35,9 +35,9 @@ Where...
 
 Development:
 =====
-I studied up on this and wrote it while working on a project a few years ago in 2009. I found that all of the available choroplethic mapping solutions available had inadequate splits of data when asked to create a map.
+I studied up on this and wrote it while working [for a startup](http://grupthinkpowered.com/) a few years ago, in 2009. I found that all of the available choroplethic mapping solutions available had inadequate splits of data when asked to create a map.
 
-This was originally based on another script that was in French (which I don't speak very well, at all). That one had bugs and was not very easy to understand. You can find the link in the code if you're interested.
+This was kind of based on [another script](http://www.forumsig.org/showthread.php?t=22055) that was in French (which I don't speak very well, at all). That one had bugs and was not very easy to understand. You can find the link in the code if you're interested.
 
 This one works well and is flexible in terms of the datasets. It has been tested pretty thoroughly and, as far as I can tell, is correct.
 
