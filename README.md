@@ -6,7 +6,7 @@ PHP Implementation of Jenks Natural Breaks Optimization for Choroplethic Mapping
 
 About:
 =====
-The Jenks natural breaks optimization method allows you to break up data points into the best possible number of groupings, with the best possible contents of each group for Choroplethic mapping. 
+The Jenks natural breaks optimization method allows you to break up data points into the best possible number of groupings, with the best possible contents of each group for choroplethic mapping. 
 
 ![Choroplethic Map](http://randomdrake.com/map.png "An example of a choropleth map.")
 
