@@ -1,7 +1,7 @@
 jenks
 =====
 
-Jenks natural breaks optimization in PHP. 
+Jenks natural breaks optimization in PHP.
 -----
 Soon to be released with an open source license.
 
