@@ -9,6 +9,8 @@ About:
 =====
 The Jenks natural breaks optimization method allows you to break up data points into the best possible number of groupings, with the best possible contents of each group for Choroplethic mapping. 
 
+![Choroplethic Map](http://randomdrake.com/map.png "An example of a choropleth map.")
+
 http://en.wikipedia.org/wiki/Choropleth_map
 
 Here's how it works (from http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization):
