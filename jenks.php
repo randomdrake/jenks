@@ -1,6 +1,6 @@
 <?php
 /**
-  * Copyright 2012 David Drake
+  * Copyright (c) 2012 David Drake
   *
   * Licensed under the Apache License, Version 2.0 (the "License");
   * you may not use this file except in compliance with the License.
@@ -593,39 +593,34 @@ function displayGoogleMap($values, $locations, $map_type, $return_data = false) 
 	} else {
 		// Let's display it
 		$empty_color = $google_colors[0];
-?>
-				<div class="map_legend">
-					<table>
-						<tr>
-							<td class="mapcolor" bgcolor="#<?php echo $map_colors[0]; ?>">
-								&nbsp;&nbsp;&nbsp;
-							</td>
-							<td>
-								No Data
-							</td>
-						</tr>
-<?php
+        echo <<<HTML
+<div class="map_legend">
+    <table>
+        <tr>
+            <td class="mapcolor" bgcolor="#<?php echo $map_colors[0]; ?>">
+                &nbsp;&nbsp;&nbsp;
+            </td>
+            <td>
+                No Data
+            </td>
+        </tr>
+HTML;
 		for ($ii = 1; $ii <= $number_of_classes; $ii++) {
 			$color = $google_colors[$ii];
 			$text = $breaks_array[$ii - 1];
-			echo '<tr>' . "\n" .
-				 '<td class="mapcolor" bgcolor="#' . $color . '" border="1">' . "\n" . 
-				 '&nbsp;&nbsp;&nbsp;' . "\n" .
-				 '</td>' . "\n" . 
-				 '<td>' . "\n" .
-				 $text . "\n" .
-				 '</td>' . "\n" .
-				 '</tr>';
+			echo <<<HTML
+        <tr>
+            <td class="mapcolor" bgcolor="#{$color}" border="1">&nbsp;&nbsp;&nbsp;</td>
+            <td>{$text}</td>
+        </tr>
+HTML;
+
 		}
-?>
-					</table>
-				</div>
-<?php echo '<img ' . $margin . 'src="' . $uri . '" />'; ?>
-			</div>
-		</div>
-	</div>
+        echo <<<HTML
+    </table>
 </div>
-<?php
+<img {$margin}src="{$uri}">
+HTML;
 	} # end case they didn't want the data returned
 } # end function displayGoogleMap
 
