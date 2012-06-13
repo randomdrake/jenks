@@ -39,6 +39,8 @@ Development:
 =====
 I studied up on this and wrote it while working [for a startup](http://grupthinkpowered.com/) a few years ago, in 2009. I found that all of the available choroplethic mapping solutions available had inadequate splits of data when asked to create a map.
 
+When re-writing this, we had chosen to use the Google Charts API for our maps so, you should be able to use this to simply output a map assuming you provide all the necessary parameters.
+
 This was kind of based on [another script](http://www.forumsig.org/showthread.php?t=22055) that was in French (which I don't speak very well, at all). The original script had many issues and bugs and wasn't as flexible as I wanted it to be. So, I re-wrote it.
 
 This one works well and is flexible in terms of the datasets. It has been tested pretty thoroughly and, as far as I can tell, is correct.
