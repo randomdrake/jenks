@@ -1,7 +1,7 @@
 jenks
 =====
 
-PHP Implementation of Jenks Natural Breaks Optimization for Choroplethic Mapping
+PHP Implementation of Jenks Natural Breaks Optimization for Choropleth Mapping
 -----
 
 About:
