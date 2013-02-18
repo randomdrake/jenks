@@ -12,7 +12,7 @@ The Jenks natural breaks optimization method allows you to break up data points 
 
 http://en.wikipedia.org/wiki/Choropleth_map
 
-Here's how it works (from http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization):
+Here's how it works (from [Wikipedia](http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization)):
 
 >The method requires an iterative process. That is, calculations must be repeated using different breaks in the dataset to determine which set of breaks has the smallest in-class variance. The process is started by dividing the ordered data into groups. Initial group divisions can be arbitrary. There are four steps that must be repeated:
 >
